@@ -17,10 +17,6 @@ weight = 2
 URL = "pricing"
 name = "Services"
 weight = 1
-[[menu.footer_middle]]
-URL = "pricing"
-name = "Services"
-weight = 1
 [[menu.main]]
 URL = "pricing"
 name = "Services"

@@ -9,33 +9,10 @@ theme = "bigspring"
 title = "Bigspring Hugo"
 [markup.goldmark.renderer]
 unsafe = true
-[[menu.footer_left]]
-URL = "#"
-name = "About Us"
-[[menu.footer_left]]
-URL = "#"
-name = "Quick Start"
-[[menu.footer_left]]
-URL = "pricing"
-name = "Pricing"
-[[menu.footer_middle]]
-URL = "pricing"
-name = "Pricing"
-[[menu.footer_middle]]
-URL = "#"
-name = "Platform"
-[[menu.footer_middle]]
-URL = "#"
-name = "Features"
-[[menu.footer_right]]
-URL = "privacy-policy"
-name = "Privacy Policy"
-[[menu.footer_right]]
-URL = "terms-conditions"
-name = "Terms & Conditions"
-[[menu.footer_right]]
-URL = "faq"
-name = "FAQ"
+[menu]
+footer_left = []
+footer_middle = []
+footer_right = []
 [[menu.main]]
 URL = "blog"
 name = "Blog"
@@ -48,10 +25,6 @@ weight = 2
 URL = "contact"
 name = "Contact"
 weight = 3
-[[menu.main]]
-URL = "faq"
-name = "FAQ"
-weight = 4
 [params]
 author = "Themefisher"
 contact_form_action = "#"

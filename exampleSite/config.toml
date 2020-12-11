@@ -1,4 +1,4 @@
-baseURL = "http://examplesite.org/"
+baseURL = "https://nobuyuki-netlify.com"
 disqusShortname = ""
 googleAnalytics = ""
 languageCode = "en-us"
@@ -12,23 +12,46 @@ unsafe = true
 [[menu.footer_left]]
 URL = "#"
 name = "About Us"
-weight = 2
+[[menu.footer_left]]
+URL = "#"
+name = "Quick Start"
 [[menu.footer_left]]
 URL = "pricing"
-name = "Services"
+name = "Pricing"
+[[menu.footer_middle]]
+URL = "pricing"
+name = "Pricing"
+[[menu.footer_middle]]
+URL = "#"
+name = "Platform"
+[[menu.footer_middle]]
+URL = "#"
+name = "Features"
+[[menu.footer_right]]
+URL = "privacy-policy"
+name = "Privacy Policy"
+[[menu.footer_right]]
+URL = "terms-conditions"
+name = "Terms & Conditions"
+[[menu.footer_right]]
+URL = "faq"
+name = "FAQ"
+[[menu.main]]
+URL = "blog"
+name = "Blog"
 weight = 1
 [[menu.main]]
 URL = "pricing"
-name = "Services"
+name = "Pricing"
 weight = 2
 [[menu.main]]
 URL = "contact"
 name = "Contact"
 weight = 3
 [[menu.main]]
-URL = "blog"
-name = "Blog"
-weight = 1
+URL = "faq"
+name = "FAQ"
+weight = 4
 [params]
 author = "Themefisher"
 contact_form_action = "#"
